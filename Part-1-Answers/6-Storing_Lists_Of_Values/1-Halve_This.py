@@ -7,7 +7,7 @@
 inp = int(input("Number: "))
 half = inp/2
 halfstr = str(half)
-print("Half Number:", halfstr)
+print("Half number:", halfstr)
 
 #What is happening here?
 #	This code gets a bit confusing, due to the numver of variables, so lets break it down. 
