@@ -7,11 +7,11 @@ name = input("Enter your name: ")
 length = len(name)
 
 if length <=3:
-	print("Hi", name,",you have a short name.")
+  print("Hi " + name + ", you have a short name.")
 elif length >=4 and length <=8:
-	print("Hi",name,", nice to meet you.")
+  print("Hi " + name + ", nice to meet you.")
 elif length >8:
-	print("Hi",name,", you have a long name.")
+  print("Hi " + name + ", you have a long name.")
 
 #What is happening here?
 #	This code is a bit confusing, so lets break it down line by line. 
